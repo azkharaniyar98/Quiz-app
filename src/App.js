@@ -5,14 +5,14 @@ function App() {
   return (
     <div style={{ maxWidth: "600px", margin: "2rem auto", padding: "1rem" }}>
       <Card elevation={5} sx={{ borderRadius: 3, backgroundColor: "white" }}>
-        <CardContent>
+        <CardContent sx={{textAlign: "center"}}>
           <Typography variant="h4" gutterBottom >
             Football & NBA Quiz
           </Typography>
           <Typography variant="body1" gutterBottom>
-            Test your knowledge on football and NBA. Click below to start.
+          Test your knowledge on Football & NBA. <strong>Lets get Started.</strong>
           </Typography>
-          <Stack direction="row" spacing={2} sx={{ marginTop: 2 }}>
+          <Stack direction="column" spacing={3} sx={{ marginTop: 2, alignItems: "center"}}>
             <Button variant="contained" color="primary">
               Start Quiz
             </Button>

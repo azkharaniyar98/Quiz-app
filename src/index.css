@@ -2,8 +2,6 @@ body {
   background-color: slateblue;
   margin: 0;
   font-family: fantasy;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
