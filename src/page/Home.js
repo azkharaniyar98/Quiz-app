@@ -1,4 +1,3 @@
-// src/pages/Home.js
 import React from "react";
 import { Button, Stack, Card, CardContent, Typography } from "@mui/material";
 import { useNavigate } from "react-router-dom";
@@ -6,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 function Home() {
   const navigate = useNavigate();
   return (
-    <div style={{ maxWidth: "600px", margin: "2rem auto", padding: "1rem" }}>
+    <div style={{ maxWidth: "800px", margin: "5rem auto", padding: "1rem" }}>
       <Card
         elevation={5}
         sx={{ borderRadius: "20px 0 20px 0", backgroundColor: "white" }}
@@ -26,9 +25,6 @@ function Home() {
           >
             <Button variant="contained" color="primary" onClick={() => navigate("/quiz")}>
               Start Quiz
-            </Button>
-            <Button variant="outlined" color="secondary" onClick={() => navigate("/settings")}>
-              Settings
             </Button>
           </Stack>
         </CardContent>
