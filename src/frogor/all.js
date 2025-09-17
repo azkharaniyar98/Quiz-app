@@ -4,7 +4,7 @@ import hardQuestions from "./hard";
 
 export function getQuestionsByDifficulty(difficulty) {
     if (difficulty === "easy") return easyQuestions;
-    if (difficulty === "meduim") return mediumQuestions;
+    if (difficulty === "medium") return mediumQuestions;
     if (difficulty === "hard") return hardQuestions;
     return [];
 }
