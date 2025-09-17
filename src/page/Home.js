@@ -26,6 +26,10 @@ function Home() {
             <Button variant="contained" color="primary" onClick={() => navigate("/quiz")}>
               Start Quiz
             </Button>
+
+            <Button variant="text" onClick={() => navigate("/Score")}>
+              Scoreboard
+            </Button>
           </Stack>
         </CardContent>
       </Card>

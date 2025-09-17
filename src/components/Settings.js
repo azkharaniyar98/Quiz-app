@@ -10,6 +10,7 @@ const Settings = () => {
     const handleReset = () => {
         setDifficulty("easy");
         setNumQuestions(10);
+        localStorage.removeItem("quiz_scores");
     };
 
     return (
