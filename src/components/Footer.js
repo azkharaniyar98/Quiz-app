@@ -17,8 +17,9 @@ export default function Footer() {
         flexDirection: { xs: "column", sm: "row" },
         justifyContent: "space-between",
         alignItems: "center",
-        position: "sticky",
+        position: "fixed",
         bottom: 0,
+        left: 0,
         mt: 5,
         boxSizing: "border-box",
       }}
@@ -34,7 +35,7 @@ export default function Footer() {
       </Box>
 
       <Stack direction="row" spacing={2}>
-        <Link href="www.linkedin.com/in/azkhar-aniyar-775120366" target="_blank" rel="noopener" color="inherit">
+        <Link href="https://www.linkedin.com/in/azkhar-aniyar-775120366" target="_blank" rel="noopener" color="inherit">
           <IconButton sx={{ color: "white" }}>
             <LinkedInIcon fontSize="large" />
           </IconButton>
