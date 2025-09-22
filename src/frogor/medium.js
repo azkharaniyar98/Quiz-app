@@ -1,12 +1,34 @@
 const mediumQuestions = [
-    { question: "Which player has the NBA nickname 'King James'?", options: ["Kobe Bryant", "LeBron James", "Stephen Curry", "Kevin Durant"], answer: "LeBron James" },
-    { question: "Which country hosted the 2014 FIFA World Cup?", options: ["Germany", "Russia", "Brazil", "South Africa"], answer: "Brazil" },
-    { question: "Which formation is common in soccer (defensive to attacking)?", options: ["4-4-2", "3-5-2-1", "2-2-6", "5-5-0"], answer: "4-4-2" },
-    { question: "What does 'MVP' stand for in NBA awards?", options: ["Most Valuable Player", "Most Valiant Player", "Maximum Value Person", "Most Valuable Play"], answer: "Most Valuable Player" },
-    { question: "Which club is known as 'The Red Devils'?", options: ["Manchester United", "Real Madrid", "Juventus", "Bayern Munich"], answer: "Manchester United" },
-    { question: "How many substitutions are allowed in most professional soccer matches (normal rules)?", options: ["1", "3", "5", "7"], answer: "3" },
-    { question: "Which NBA team plays in Cleveland?", options: ["Celtics", "Lakers", "Cavaliers", "Bulls"], answer: "Cavaliers" },
-    { question: "Which competition decides the champions of Europe for national teams? (older name)", options: ["UEFA Euro", "CONCACAF League", "Copa America", "AFC Cup"], answer: "UEFA Euro" }
-  ];
-  
-  export default mediumQuestions;
+  { question: "Which player is nicknamed 'The Black Mamba'?", options: ["Kobe Bryant", "LeBron James", "Michael Jordan", "Kevin Durant"], answer: "Kobe Bryant" },
+  { question: "Which country won the 2014 FIFA World Cup?", options: ["Brazil", "Germany", "Spain", "Argentina"], answer: "Germany" },
+  { question: "How long is an NBA quarter (in minutes)?", options: ["10", "12", "15", "20"], answer: "12" },
+  { question: "Who is the all-time top scorer in FIFA World Cup history?", options: ["Pele", "Miroslav Klose", "Ronaldo Nazario", "Messi"], answer: "Miroslav Klose" },
+  { question: "Which NBA player is known as 'The Greek Freak'?", options: ["Giannis Antetokounmpo", "Luka Doncic", "Nikola Jokic", "Dirk Nowitzki"], answer: "Giannis Antetokounmpo" },
+  { question: "Which English club has won the most Premier League titles?", options: ["Chelsea", "Liverpool", "Manchester United", "Arsenal"], answer: "Manchester United" },
+  { question: "Who holds the record for most 3-pointers in an NBA game?", options: ["Stephen Curry", "Klay Thompson", "Damian Lillard", "Ray Allen"], answer: "Klay Thompson" },
+  { question: "Which country won the first FIFA World Cup in 1930?", options: ["Brazil", "Uruguay", "Argentina", "Italy"], answer: "Uruguay" },
+  { question: "Who is the NBA all-time leading scorer?", options: ["Kareem Abdul-Jabbar", "LeBron James", "Michael Jordan", "Karl Malone"], answer: "LeBron James" },
+  { question: "Which football player is known as 'El Pibe de Oro'?", options: ["Diego Maradona", "Pele", "Messi", "Ronaldinho"], answer: "Diego Maradona" },
+  { question: "Which NBA franchise has the most championships?", options: ["Bulls", "Celtics", "Lakers", "Warriors"], answer: "Celtics" },
+  { question: "Which African country was first to reach a World Cup quarterfinal?", options: ["Ghana", "Cameroon", "Nigeria", "Senegal"], answer: "Cameroon" },
+  { question: "Who was the first NBA player to dunk from the free-throw line?", options: ["Michael Jordan", "Julius Erving", "Dominique Wilkins", "Vince Carter"], answer: "Julius Erving" },
+  { question: "Which football club is nicknamed 'The Gunners'?", options: ["Chelsea", "Arsenal", "Tottenham", "Everton"], answer: "Arsenal" },
+  { question: "Which NBA player is called 'The Beard'?", options: ["James Harden", "Kyrie Irving", "Russell Westbrook", "Chris Paul"], answer: "James Harden" },
+  { question: "Who scored the 'Hand of God' goal?", options: ["Diego Maradona", "Pele", "Messi", "Zidane"], answer: "Diego Maradona" },
+  { question: "How many teams compete in the FIFA World Cup (current format)?", options: ["24", "28", "32", "36"], answer: "32" },
+  { question: "Which team drafted Kobe Bryant?", options: ["Hornets", "Lakers", "76ers", "Celtics"], answer: "Hornets" },
+  { question: "Which country has won the most Copa America titles?", options: ["Argentina", "Brazil", "Uruguay", "Chile"], answer: "Uruguay" },
+  { question: "Who has the most assists in NBA history?", options: ["Magic Johnson", "Chris Paul", "John Stockton", "Steve Nash"], answer: "John Stockton" },
+  { question: "Which club won the 2021 UEFA Champions League?", options: ["Chelsea", "Manchester City", "Real Madrid", "Bayern"], answer: "Chelsea" },
+  { question: "Which player is nicknamed 'Shaq'?", options: ["Shaquille O'Neal", "Allen Iverson", "Charles Barkley", "Patrick Ewing"], answer: "Shaquille O'Neal" },
+  { question: "Who won the Golden Boot in the 2018 FIFA World Cup?", options: ["Harry Kane", "Mbappe", "Lukaku", "Ronaldo"], answer: "Harry Kane" },
+  { question: "Which team won the NBA championship in 2016?", options: ["Warriors", "Cavaliers", "Lakers", "Heat"], answer: "Cavaliers" },
+  { question: "Which country hosted the 2010 FIFA World Cup?", options: ["Brazil", "Germany", "South Africa", "France"], answer: "South Africa" },
+  { question: "Who is known as 'The Answer' in NBA?", options: ["Allen Iverson", "Derrick Rose", "Chris Paul", "Damian Lillard"], answer: "Allen Iverson" },
+  { question: "Which football club is known as 'The Blues'?", options: ["Chelsea", "Manchester City", "Everton", "Leicester"], answer: "Chelsea" },
+  { question: "Which player is nicknamed 'The Splash Brother' along with Klay Thompson?", options: ["Steph Curry", "Kevin Durant", "Chris Paul", "Damian Lillard"], answer: "Steph Curry" },
+  { question: "Who scored the winning goal in the 2014 World Cup final?", options: ["Messi", "Gotze", "Schurrle", "Neymar"], answer: "Gotze" },
+  { question: "Which NBA team is nicknamed 'The Dubs'?", options: ["Lakers", "Warriors", "Celtics", "Nets"], answer: "Warriors" }
+];
+
+export default mediumQuestions;

@@ -27,7 +27,7 @@ function Home() {
               Start Quiz
             </Button>
 
-            <Button variant="text" onClick={() => navigate("/Score")}>
+            <Button variant="text" onClick={() => navigate("/scoreboard")}>
               Scoreboard
             </Button>
           </Stack>

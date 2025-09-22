@@ -1,12 +1,42 @@
 const easyQuestions = [
-    { question: "Which sport does the NBA feature?", options: ["Basketball", "Football", "Baseball", "Hockey"], answer: "Basketball" },
-    { question: "How many points is a 3-point shot worth?", options: ["1", "2", "3", "4"], answer: "3" },
-    { question: "How many players per side on a soccer team (on the field)?", options: ["9", "10", "11", "12"], answer: "11" },
-    { question: "Which country won the 2018 FIFA World Cup?", options: ["Brazil", "France", "Germany", "Argentina"], answer: "France" },
-    { question: "What is the name of Europe's top inter-club football competition?", options: ["Europa League", "Champions League", "FA Cup", "Copa Libertadores"], answer: "Champions League" },
-    { question: "Which team plays at 'Madison Square Garden' (city)?", options: ["Los Angeles", "New York", "Chicago", "Miami"], answer: "New York" },
-    { question: "How many quarters in an NBA game?", options: ["2", "3", "4", "5"], answer: "4" },
-    { question: "Which of these is awarded to the winner of the English Premier League?", options: ["Stanley Cup", "Premier Trophy", "Premier League title", "World Cup"], answer: "Premier League title" }
-  ];
-  
-  export default easyQuestions;
+  { question: "Which sport does the NBA feature?", options: ["Basketball", "Football", "Baseball", "Hockey"], answer: "Basketball" },
+  { question: "How many points is a 3-point shot worth?", options: ["1", "2", "3", "4"], answer: "3" },
+  { question: "How many players per side on a soccer team (on the field)?", options: ["9", "10", "11", "12"], answer: "11" },
+  { question: "Which country won the 2018 FIFA World Cup?", options: ["Brazil", "France", "Germany", "Argentina"], answer: "France" },
+  { question: "What is the name of Europe's top inter-club football competition?", options: ["Europa League", "Champions League", "FA Cup", "Copa Libertadores"], answer: "Champions League" },
+  { question: "Which team plays at 'Madison Square Garden' (city)?", options: ["Los Angeles", "New York", "Chicago", "Miami"], answer: "New York" },
+  { question: "How many quarters in an NBA game?", options: ["2", "3", "4", "5"], answer: "4" },
+  { question: "Which of these is awarded to the winner of the English Premier League?", options: ["Stanley Cup", "Premier Trophy", "Premier League title", "World Cup"], answer: "Premier League title" }, 
+  { question: "Which sport uses a round orange ball?", options: ["Basketball", "Tennis", "Football", "Baseball"], answer: "Basketball" },
+  { question: "Which sport is also called 'soccer' in the USA?", options: ["Football", "Rugby", "Basketball", "Cricket"], answer: "Football" },
+  { question: "How many halves are in a football (soccer) match?", options: ["1", "2", "3", "4"], answer: "2" },
+  { question: "How many minutes in one half of football (normal rules)?", options: ["30", "45", "60", "50"], answer: "45" },
+  { question: "Which country invented football (soccer)?", options: ["Brazil", "England", "Germany", "Italy"], answer: "England" },
+  { question: "Which player is called 'King James'?", options: ["LeBron James", "Michael Jordan", "Kobe Bryant", "Kevin Durant"], answer: "LeBron James" },
+  { question: "In football, what part of the body is not allowed (except the goalkeeper)?", options: ["Hands", "Feet", "Head", "Chest"], answer: "Hands" },
+  { question: "What shape is a football (soccer) ball?", options: ["Round", "Square", "Oval", "Triangle"], answer: "Round" },
+  { question: "How many points for a basket inside the arc?", options: ["1", "2", "3", "4"], answer: "2" },
+  { question: "What is the nickname of the Brazilian football team?", options: ["La Roja", "Azzurri", "Seleção", "Three Lions"], answer: "Seleção" },
+  { question: "What color card sends a football player off?", options: ["Yellow", "Blue", "Red", "Green"], answer: "Red" },
+  { question: "Which NBA team is from Los Angeles?", options: ["Lakers", "Bulls", "Celtics", "Heat"], answer: "Lakers" },
+  { question: "Which country is Lionel Messi from?", options: ["Brazil", "Portugal", "Argentina", "Spain"], answer: "Argentina" },
+  { question: "How many goals is a hat-trick?", options: ["2", "3", "4", "5"], answer: "3" },
+  { question: "What color jersey does the home NBA team usually wear?", options: ["White", "Black", "Red", "Green"], answer: "White" },
+  { question: "How many teams are in the NBA?", options: ["20", "25", "30", "35"], answer: "30" },
+  { question: "Which country is famous for Samba football?", options: ["Italy", "Brazil", "Germany", "France"], answer: "Brazil" },
+  { question: "Which country hosted the 2022 FIFA World Cup?", options: ["Russia", "Qatar", "Brazil", "Germany"], answer: "Qatar" },
+  { question: "Which NBA team is based in Chicago?", options: ["Bulls", "Heat", "Warriors", "Spurs"], answer: "Bulls" },
+  { question: "How many players in total on a football pitch?", options: ["18", "20", "22", "24"], answer: "22" },
+  { question: "Which country’s flag has a football in it?", options: ["Brazil", "Mexico", "Uruguay", "Portugal"], answer: "Brazil" },
+  { question: "What is the line called that divides a football pitch?", options: ["Halfway line", "Penalty line", "Goal line", "Touchline"], answer: "Halfway line" },
+  { question: "Which NBA team plays in Miami?", options: ["Heat", "Celtics", "Knicks", "Bulls"], answer: "Heat" },
+  { question: "What is the maximum number of substitutions in most football matches (old rules)?", options: ["1", "2", "3", "5"], answer: "3" },
+  { question: "How many baskets are there on an NBA court?", options: ["1", "2", "3", "4"], answer: "2" },
+  { question: "Which football player is known as CR7?", options: ["Cristiano Ronaldo", "Lionel Messi", "Neymar", "Mbappe"], answer: "Cristiano Ronaldo" },
+  { question: "Which country has won the most FIFA World Cups?", options: ["Brazil", "Germany", "Italy", "Argentina"], answer: "Brazil" },
+  { question: "What is the distance of a penalty kick in football?", options: ["10m", "11m", "12m", "9m"], answer: "11m" },
+  { question: "Which team is known as 'The Red Devils'?", options: ["Manchester United", "Liverpool", "Arsenal", "Chelsea"], answer: "Manchester United" },
+  { question: "How many referees are on the court in an NBA game?", options: ["1", "2", "3", "4"], answer: "3" }
+];
+
+export default easyQuestions;

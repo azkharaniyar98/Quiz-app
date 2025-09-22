@@ -13,13 +13,11 @@ function shuffleArray(arr) {
 }
 
 function sampleQuestions(pool, num) {
-  const out = [];
   const shuffled = shuffleArray(pool);
-  for (let i = 0; i < num; i++) {
-    out.push(shuffled[i % shuffled.length]);
-  }
-  return shuffleArray(out);
+
+  return shuffled.slice(0, num);
 }
+
 
 function Quizquestions({ difficulty, numQuestions, onRestart }) {
   const navigate = useNavigate();

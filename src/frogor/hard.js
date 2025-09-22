@@ -1,12 +1,35 @@
 const hardQuestions = [
-    { question: "Who scored the 'Hand of God' goal in 1986 World Cup?", options: ["Diego Maradona", "Lionel Messi", "Cristiano Ronaldo", "Zinedine Zidane"], answer: "Diego Maradona" },
-    { question: "Which player holds the NBA record for most points in a single game (100)?", options: ["Wilt Chamberlain", "Kobe Bryant", "Michael Jordan", "LeBron James"], answer: "Wilt Chamberlain" },
-    { question: "Which stadium is the home of FC Barcelona?", options: ["Santiago Bernabeu", "Camp Nou", "Old Trafford", "San Siro"], answer: "Camp Nou" },
-    { question: "Which coach is famous for 'tiki-taka' possession style (Spain/Barcelona era)?", options: ["Pep Guardiola", "José Mourinho", "Alex Ferguson", "Carlo Ancelotti"], answer: "Pep Guardiola" },
-    { question: "Which national team won Euro 2016?", options: ["France", "Portugal", "Spain", "Germany"], answer: "Portugal" },
-    { question: "Which NBA team drafted Michael Jordan?", options: ["Chicago Bulls", "Washington Wizards", "Charlotte Hornets", "Portland Trail Blazers"], answer: "Chicago Bulls" },
-    { question: "Which player won the Ballon d'Or five times (as of historic winners)?", options: ["Lionel Messi", "Cristiano Ronaldo", "Zinedine Zidane", "Johan Cruyff"], answer: "Lionel Messi" },
-    { question: "Which team won the 1999 UEFA Champions League final famously (Manchester United comeback)?", options: ["Juventus", "Manchester United", "Real Madrid", "Bayern Munich"], answer: "Manchester United" }
-  ];
-  
-  export default hardQuestions;
+  { question: "Which player has won the most Ballon d'Or awards?", options: ["Messi", "Cristiano Ronaldo", "Pele", "Zidane"], answer: "Messi" },
+  { question: "Who holds the record for most goals in a single FIFA World Cup?", options: ["Just Fontaine", "Miroslav Klose", "Ronaldo", "Gerd Muller"], answer: "Just Fontaine" },
+  { question: "Which coach has the most NBA championship rings?", options: ["Phil Jackson", "Red Auerbach", "Gregg Popovich", "Pat Riley"], answer: "Phil Jackson" },
+  { question: "Which goalkeeper has the most clean sheets in World Cup history?", options: ["Manuel Neuer", "Peter Shilton", "Iker Casillas", "Fabien Barthez"], answer: "Peter Shilton" },
+  { question: "Which NBA player was known as 'The Mailman'?", options: ["Karl Malone", "Charles Barkley", "Hakeem Olajuwon", "Patrick Ewing"], answer: "Karl Malone" },
+  { question: "Which club has the most UEFA Champions League titles?", options: ["Barcelona", "Real Madrid", "AC Milan", "Liverpool"], answer: "Real Madrid" },
+  { question: "Who was the first player to score 100 points in a single NBA game?", options: ["Wilt Chamberlain", "Bill Russell", "Kareem Abdul-Jabbar", "Shaq"], answer: "Wilt Chamberlain" },
+  { question: "Which player has the most assists in World Cup history?", options: ["Messi", "Pele", "Maradona", "Kroos"], answer: "Pele" },
+  { question: "Which NBA team drafted Dirk Nowitzki?", options: ["Mavericks", "Bucks", "Spurs", "Celtics"], answer: "Bucks" },
+  { question: "Which football club has won the most La Liga titles?", options: ["Barcelona", "Real Madrid", "Atletico Madrid", "Valencia"], answer: "Real Madrid" },
+  { question: "Which NBA player is known as 'The Big Fundamental'?", options: ["Tim Duncan", "David Robinson", "Kevin Garnett", "Chris Webber"], answer: "Tim Duncan" },
+  { question: "Which country won the 1950 FIFA World Cup?", options: ["Uruguay", "Brazil", "Italy", "Germany"], answer: "Uruguay" },
+  { question: "Who is the youngest player to debut in the NBA?", options: ["Kobe Bryant", "Andrew Bynum", "LeBron James", "Tracy McGrady"], answer: "Andrew Bynum" },
+  { question: "Which country has reached the most World Cup finals without winning?", options: ["Netherlands", "Portugal", "Croatia", "Hungary"], answer: "Netherlands" },
+  { question: "Which NBA player was nicknamed 'The Admiral'?", options: ["David Robinson", "Tim Duncan", "Karl Malone", "Patrick Ewing"], answer: "David Robinson" },
+  { question: "Which African footballer won the Ballon d'Or in 1995?", options: ["Samuel Eto'o", "Didier Drogba", "George Weah", "Yaya Toure"], answer: "George Weah" },
+  { question: "Which NBA player has the most career rebounds?", options: ["Wilt Chamberlain", "Bill Russell", "Kareem Abdul-Jabbar", "Shaq"], answer: "Wilt Chamberlain" },
+  { question: "Which football club has the nickname 'Los Colchoneros'?", options: ["Real Madrid", "Atletico Madrid", "Valencia", "Sevilla"], answer: "Atletico Madrid" },
+  { question: "Which NBA team has the longest winning streak in history?", options: ["Warriors", "Lakers", "Heat", "Rockets"], answer: "Lakers" },
+  { question: "Which country won the most consecutive Copa America tournaments?", options: ["Brazil", "Uruguay", "Argentina", "Chile"], answer: "Argentina" },
+  { question: "Which NBA player holds the record for most points in a single season?", options: ["Wilt Chamberlain", "Michael Jordan", "Kobe Bryant", "LeBron James"], answer: "Wilt Chamberlain" },
+  { question: "Which player scored the fastest goal in World Cup history?", options: ["Hakan Sukur", "Ronaldo", "Pele", "Mbappe"], answer: "Hakan Sukur" },
+  { question: "Which team won the first ever NBA championship?", options: ["Lakers", "Celtics", "Philadelphia Warriors", "Knicks"], answer: "Philadelphia Warriors" },
+  { question: "Which European footballer is nicknamed 'Der Kaiser'?", options: ["Franz Beckenbauer", "Gerd Muller", "Michael Ballack", "Lothar Matthaus"], answer: "Franz Beckenbauer" },
+  { question: "Which NBA player has the most MVP awards?", options: ["Kareem Abdul-Jabbar", "LeBron James", "Michael Jordan", "Bill Russell"], answer: "Kareem Abdul-Jabbar" },
+  { question: "Which football player scored the 'goal of the century' in 1986?", options: ["Maradona", "Pele", "Messi", "Zidane"], answer: "Maradona" },
+  { question: "Which NBA player has the most career steals?", options: ["John Stockton", "Scottie Pippen", "Chris Paul", "Michael Jordan"], answer: "John Stockton" },
+  { question: "Which country won the UEFA Euro 2004?", options: ["Portugal", "Spain", "Greece", "Italy"], answer: "Greece" },
+  { question: "Which NBA player is known as 'Dr. J'?", options: ["Julius Erving", "Magic Johnson", "Larry Bird", "Dominique Wilkins"], answer: "Julius Erving" },
+  { question: "Which football club has won the most Serie A titles?", options: ["AC Milan", "Juventus", "Inter Milan", "Roma"], answer: "Juventus" },
+  { question: "Which NBA player is nicknamed 'The Logo'?", options: ["Jerry West", "Bill Russell", "Larry Bird", "Oscar Robertson"], answer: "Jerry West" }
+];
+
+export default hardQuestions;
